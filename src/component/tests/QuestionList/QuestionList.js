@@ -125,7 +125,7 @@ const CreateQuestionList = (props) => {
   }
 
   return (
-    <Grid container justify="center">
+    <Grid container justifyContent="center">
       <Grid item className={classes.tableContainer}>
         <Grid 
           container 

@@ -32,7 +32,7 @@ const ErrorFound = ({ error, stopLoading }) => {
   }, [])
 
   return (
-    <Grid container justify="center" className={classes.container}>
+    <Grid container justifyContent="center" className={classes.container}>
       <Grid 
         item 
         container 
@@ -44,7 +44,7 @@ const ErrorFound = ({ error, stopLoading }) => {
         <Grid item>
           <Typography variant="h5">{error}</Typography>
         </Grid>
-        <Grid item container justify="center">
+        <Grid item container justifyContent="center">
           <img alt="error" src={sad} className={classes.img} />
         </Grid>
       </Grid>

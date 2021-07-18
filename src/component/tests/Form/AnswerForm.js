@@ -97,7 +97,7 @@ const AnswerForm = ({
                 item 
                 container
                 direction={matchLg ? 'column' : 'row'}
-                justify={matchLg ? 'center' : 'space-between'}
+                justifyContent={matchLg ? 'center' : 'space-between'}
                 alignItems="center"
               >
                 <Avatar className={classes.avatar}>
@@ -166,7 +166,7 @@ const AnswerForm = ({
       <Grid 
         item
         container 
-        justify="space-between" 
+        justifyContent="space-between" 
         alignItems="center"
       >
         <Typography variant="button" color="primary">Answers</Typography>

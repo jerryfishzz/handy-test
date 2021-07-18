@@ -15,7 +15,7 @@ function Loading() {
   const classes = useStyles()
 
   return (
-    <Grid container justify="center" className={classes.container}>
+    <Grid container justifyContent="center" className={classes.container}>
       <Grid 
         item 
         container 

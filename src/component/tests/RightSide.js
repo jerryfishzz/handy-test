@@ -39,7 +39,7 @@ function RightSide(props) {
       spacing={3} 
       className={classes.columnContainer}
     >
-      <Grid item container justify="center" className={classes.titleContainer}>
+      <Grid item container justifyContent="center" className={classes.titleContainer}>
         <Grid 
           item 
           container 
@@ -55,7 +55,7 @@ function RightSide(props) {
       <Grid
         item
         container
-        justify="center"
+        justifyContent="center"
         xs 
         className={classes.itemQuestion}
       >

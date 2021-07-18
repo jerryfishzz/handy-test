@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
 import { createStore, compose } from 'redux'
 import reducer from './reducers'
 import { Provider } from 'react-redux'
@@ -17,7 +17,7 @@ const store = createStore(
   composeEnhancers(middleware),
 )
 
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     useNextVariants: true,
   },

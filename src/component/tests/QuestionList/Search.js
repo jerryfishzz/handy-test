@@ -69,7 +69,7 @@ function Search({ postType, searchRecords, handleGetList, getError }) {
         item 
         container 
         alignItems="center" 
-        justify="center" 
+        justifyContent="center" 
         className={classes.searchIcon}
       >
         <SearchIcon />

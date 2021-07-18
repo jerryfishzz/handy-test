@@ -130,7 +130,7 @@ function LeftSide(props) {
       spacing={3} 
       className={classes.columnContainer}
     >
-      <Grid item container justify="center">
+      <Grid item container justifyContent="center">
         <Grid 
           item 
           container 
@@ -194,7 +194,7 @@ function LeftSide(props) {
       <Grid 
         item
         container
-        justify="center"
+        justifyContent="center"
         xs 
         className={classes.itemQuestion}
       >
@@ -206,13 +206,13 @@ function LeftSide(props) {
       <Grid
         item
         container
-        justify="center"
+        justifyContent="center"
         className={classes.bottomContainer}
       >
         <Grid 
           item 
           container 
-          justify="space-between" 
+          justifyContent="space-between" 
           className={classes.progressBar}
         >
           <Grid item>

@@ -49,7 +49,7 @@ function CreateQuestion(props) {
   }
 
   return (
-    <Grid container justify="center">
+    <Grid container justifyContent="center">
       <Grid 
         item
         container 
